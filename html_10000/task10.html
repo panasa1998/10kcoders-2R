@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(199, 223, 233);
+        }
+        h1{
+            text-align: center;
+        }
+        h4{
+            text-align: center;
+        }
+    </style>
+  </head>
+  <body>
+    <form action="./submit.html">
+    <h1>Survey Form</h1>
+    <h4>(Free code camp)</h4>
+
+    <tr>
+      <td><label for="fname">*First name</label></td>
+      <td><input type="text" id="fname" name="f_name" required/></td>
+      <td>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</td>
+      <td><label for="lname">*Last name</label></td>
+      <td><input type="text" id="lname" name="l_name" required /></td>
+    </tr>
+    <br /><br />
+    <tr>
+      <td><label for="num">*Mobile</label></td>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <td><input type="tel" id="num" name="ph no" required/></td>
+    </tr>
+    <br /><br />
+    <tr>
+      <td><label for="mail">*Email</label></td>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <td><input type="email" id="mail" name="mailid" required/></td>
+    </tr>
+    <br /><br />
+    <tr>
+      <td><label for="dob">*DOB</label></td>
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+      <td><input type="date" id="dob" name="DOB" required /></td>
+    </tr>
+    <br /><br />
+    <label><b>Select you qualification:</b></label>
+    <select for="course">
+      <option id="course">MCA</option>
+      <option id="course">MBA</option>
+      <option id="course">MSC</option>
+      <option id="course">M PHAR</option></select
+
+    ><br /><br />
+    <label for="select"
+      ><b>How likely is that you would<br />recommend free code camp to your
+      friend?</b><br /></label
+    ><br />
+    <input type="radio" name="select" />Definetly<br />
+    <input type="radio" name="select" />May be<br />
+    <input type="radio" name="select" />Not sure<br />
+    <label for=""><b>What do you like most in free code camp?</b></label>
+    <select for="select">
+      <option id="select">Frontend</option>
+      <option id="select">Backend</option>
+      <option id="select">Mocks</option></select
+    ><br /><br />
+    <label for="mark"
+      ><b>Things that we should be improved in future&nbsp;&nbsp; (mark all that
+      apply</b>)</label
+    ><br />
+    <input type="checkbox" name="mark" />Frontend<br />
+    <input type="checkbox" name="mark" />Backend<br />
+    <input type="checkbox" name="mark" />projects<br />
+    <input type="checkbox" name="mark" />Mocks<br /><br>
+    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <input type="submit" value="submit">
+    </form>
+  </body>
+</html>
